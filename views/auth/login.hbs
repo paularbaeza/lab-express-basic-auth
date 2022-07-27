@@ -4,10 +4,10 @@
 
 <form action="/auth/login" method="POST">
 <label for="access"> Username or email</label>
-<input type="text" name="access">
+<input type="text" name="access" required="true">
 <br>
 <label for="password">Password:</label>
-<input type="password" name="password">
+<input type="password" name="password" required="true">
 <br>
 <h3>{{error}}</h3>
 <button>Log in</button>
